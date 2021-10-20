@@ -26,7 +26,7 @@ export const Projects = () => {
             >
               <div className="flex relative">
                 <img
-                  alt="gallery"
+                  alt="project"
                   className="absolute inset-0 w-full h-full object-cover object-center"
                   src={project.image}
                 />
