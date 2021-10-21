@@ -1,6 +1,7 @@
-import Stacker from './assets/images/stack.gif'
-import Jungler from './assets/images/jungler.gif'
-import Logo from './assets/images/favicon.ico'
+import Stacker from "./assets/images/stack.gif";
+import Jungler from "./assets/images/jungler.gif";
+import Logo from "./assets/images/favicon.ico";
+
 export const works = [
   {
     title: "Jungler",
@@ -22,28 +23,28 @@ export const works = [
 
 export const skills = [
   {
-    name: 'HTML'
+    name: "HTML",
   },
   {
-    name: 'PostgreSQL'
+    name: "PostgreSQL",
   },
   {
-    name: 'Ruby'
+    name: "Ruby(RubyOnRails)",
   },
   {
-    name: 'RubyOnRails'
+    name: "Méthode Agile",
   },
   {
-    name: 'JavaScript'
+    name: "JavaScript",
   },
   {
-    name: 'React'
+    name: "React",
   },
   {
-    name: 'Git & Github'
+    name: "Git & Github",
   },
   {
-    name: 'Heroku'
+    name: "Heroku",
   },
 ];
 
@@ -61,5 +62,5 @@ export const testimonials = [
     quote:
       "Techniquement, Cheikh est quelqu'un d'attaché aux conventions, il aime les choses bien faites. Je l'ai trouvé particulièrement polyvalent, autant à l'aise sur des sujets front ou des sujets backend, ce qui fait de lui quelqu'un avec un vrai potentiel full-stack.",
     image: Logo,
-  }
+  },
 ];

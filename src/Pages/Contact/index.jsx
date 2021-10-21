@@ -21,7 +21,7 @@ export const Contact = () => {
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({ "form-name": "contact", name, email, message }),
     })
-      .then(() => alert("Message sent!"))
+      .then(() => alert("Message envoyé!"))
       .catch((error) => alert(error));
   }
 
@@ -70,12 +70,11 @@ export const Contact = () => {
           onSubmit={handleSubmit}
           name="contact"
           className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
-          <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
+          <h2 className="text-white sm:text-4xl text-3xl mb-2 font-medium title-font">
             Prenons contact
           </h2>
           <p className="leading-relaxed mb-5">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
-            suscipit officia aspernatur veritatis. Asperiores, aliquid?
+            Vous pouvez remplir ce formulaire afin que l'on puisse prendre contact.
           </p>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">
