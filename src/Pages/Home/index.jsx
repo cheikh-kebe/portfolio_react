@@ -26,11 +26,10 @@ export const Home = () => {
           <p className="mb-8 leading-relaxed text-xl">
             Salut je m'appelle Cheikh Kebe et j'ai 34 ans. Tout juste sorti de la
             formation 
-            <br /><a className="text-3xl text-red-300 underline" href="https://www.thehackingproject.org/?locale=fr">«The Hacking Project»</a>, j'ai le désir de continuer ma
+            <br /><a className="text-3xl text-green-300 underline" href="https://www.thehackingproject.org/?locale=fr">«The Hacking Project»</a>, j'ai le désir de continuer ma
             reconversion professionnelle. J’aspire, en devenant développeur web
             fullstack, à développer mes acquis auprès d’une équipe motivée et
             dynamique pour participer à de nouveaux défis
-            <p className="text-3xl">
               <Typewriter
                 options={{
                   strings: ["Ambitieux!", "Stimulants!", "Fun!"],
@@ -39,7 +38,6 @@ export const Home = () => {
                   loop: true,
                 }}
               />
-            </p>
           </p>
           <div className="flex justify-center">
             <Link
