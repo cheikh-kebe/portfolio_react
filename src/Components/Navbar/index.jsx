@@ -14,7 +14,7 @@ export const Navbar = () => {
             <Link to="/skills">Compétences</Link>
           </li>
           <li className="mr-5 hover:text-white">
-            <Link to="/testimonials">Recommendations</Link>
+            <Link to="/testimonials">Témoignages</Link>
           </li>
           <li ></li>
         </ul>
