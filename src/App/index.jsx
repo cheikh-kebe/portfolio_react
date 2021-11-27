@@ -12,7 +12,7 @@ import { Error } from "../Components/Error";
 export const App = () => {
   return (
     <>
-      <main className="h-screen box-content text-gray-400 bg-gray-900 body-font">
+      <main className=" box-content text-gray-400 bg-gray-900 body-font">
         <div className="container"></div>
         <Router>
           <Link to="/">
