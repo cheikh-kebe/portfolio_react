@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { ArrowRightIcon } from "@heroicons/react/solid";
 
 export const Navbar = () => {
   return (
@@ -18,7 +17,6 @@ export const Navbar = () => {
           </li>
           <li ></li>
         </ul>
-        <ArrowRightIcon className="w-4 h-4 ml-1" />
         <Link className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0" to="/contact">Contactons-nous!</Link>
       </div>
     </header>
