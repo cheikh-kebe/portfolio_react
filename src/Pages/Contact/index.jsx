@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 
 export const Contact = () => {
-
-  const [name,setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [message, setMessage] = useState('');
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
 
   function encode(data) {
     return Object.keys(data)
@@ -25,10 +24,9 @@ export const Contact = () => {
       .catch((error) => alert(error));
   }
 
-  
   return (
     <section id="contact" className="relative">
-      <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
+      <div className="xl:h-screen lg:h-screen md:h-screen container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
         <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
           <iframe
             width="100%"
@@ -55,7 +53,10 @@ export const Contact = () => {
               <h2 className="title-font font-semibold text-white text-xs">
                 EMAIL
               </h2>
-              <a href="mailto:cheikh.kebe.01@gmail.com" className="text-green-400 leading-relaxed">
+              <a
+                href="mailto:cheikh.kebe.01@gmail.com"
+                className="text-green-400 leading-relaxed"
+              >
                 cheikh.kebe.01@gmail.com
               </a>
               <h2 className="title-font font-semibold text-white text-xs mt-4">
@@ -69,13 +70,15 @@ export const Contact = () => {
           netlify
           onSubmit={handleSubmit}
           name="contact"
-          data-testid='form'
-          className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
+          data-testid="form"
+          className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
+        >
           <h2 className="text-white sm:text-4xl text-3xl mb-2 font-medium title-font">
             Prenons contact
           </h2>
           <p className="leading-relaxed mb-5">
-            Vous pouvez remplir ce formulaire afin que l'on puisse prendre contact.
+            Vous pouvez remplir ce formulaire afin que l'on puisse prendre
+            contact.
           </p>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">
@@ -104,7 +107,8 @@ export const Contact = () => {
           <div className="relative mb-4">
             <label
               htmlFor="message"
-              className="leading-7 text-sm text-gray-400">
+              className="leading-7 text-sm text-gray-400"
+            >
               Votre message
             </label>
             <textarea
@@ -116,7 +120,8 @@ export const Contact = () => {
           </div>
           <button
             type="submit"
-            className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+            className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+          >
             Envoyer
           </button>
         </form>

@@ -1,7 +1,7 @@
 import Stacker from "./assets/images/stack.gif";
 import Jungler from "./assets/images/jungler.gif";
 import Logo from "./assets/images/favicon.ico";
-
+import MovieDb from "./assets/images/moviedb.png"
 export const works = [
   {
     title: "Jungler",
@@ -19,11 +19,19 @@ export const works = [
     image: Stacker,
     link: "https://stacker-front.herokuapp.com",
   },
+  {
+    title: "MovieDB Training",
+    subtitle: "TMDB API, React, Styled Components, Netlify ",
+    description:
+      "Projet perso de mise en pratique React.Js",
+    image: MovieDb,
+    link: "https://moviedbtraining.netlify.app",
+  }
 ];
 
 export const skills = [
   {
-    name: "HTML",
+    name: "HTML, CSS",
   },
   {
     name: "PostgreSQL",
@@ -44,7 +52,7 @@ export const skills = [
     name: "Git & Github",
   },
   {
-    name: "Heroku",
+    name: "Heroku, Netlify",
   },
 ];
 
